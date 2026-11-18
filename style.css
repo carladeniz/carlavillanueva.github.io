@@ -234,7 +234,7 @@ a:hover {
     display: inline-block;
     max-width: 100%;
     margin: 0.3125rem;
-    padding: 0.025rem 1.075rem;
+    padding: 0.005rem 1.5rem;
     color: #737A4D;
     border: 0.125rem dashed #E66595;
     border-radius: 1.875rem;
@@ -384,9 +384,14 @@ a:hover {
     }
 
     .fav-thing {
-        margin: 0.185rem;
-        padding: 0.44rem 0.875rem;
+        margin: 0.1rem;
+        padding: 0.1rem 0.875rem;
         font-size: 1rem;
+    }
+
+    .fav-thing h2 {
+    font-size: .85rem;
+    font-weight: 600;
     }
 
     .projectitem {
