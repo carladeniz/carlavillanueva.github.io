@@ -1,7 +1,6 @@
 /* ========================================
     SKELETON
 ======================================== */
-
 html {
     font-size: 100%;
 }
@@ -31,7 +30,6 @@ a:hover {
 /* ========================================
     NAV BAR
 ======================================== */
-
 .profileheader {
     min-height: 3.875rem;
     padding: 0 clamp(1.375rem, 6vw, 4.75rem);
@@ -61,6 +59,7 @@ a:hover {
     padding: 0.4375rem 1.125rem;
     border-radius: 1.875rem;
     font-size: 0.75rem;
+    font-weight: 500;
 }
 
 .navbar a:hover {
@@ -72,7 +71,6 @@ a:hover {
 /* ========================================
     SECTION
 ======================================== */
-
 .sectionpart {
     width: min(88%, 73.75rem);
     margin-inline: auto;
@@ -105,21 +103,18 @@ a:hover {
 /* ========================================
     HERO
 ======================================== */
-
 .hero {
     min-height: 26.5625rem;
     display: grid;
     grid-template-columns: 1.05fr 0.95fr;
     align-items: center;
     gap: 3rem;
-
     padding-top: 2.625rem;
     padding-bottom: 2.625rem;
 }
 
 .headline h1 {
     margin: 0 0 1rem;
-
     color: #737A4D;
     font-family: "Yeseva One", "Playfair Display", serif;
     font-size: clamp(1.875rem, 4vw, 2.6875rem);
@@ -152,11 +147,11 @@ a:hover {
 .button {
     min-width: 6.375rem;
     min-height: 2.375rem;
-    padding: 0.4375rem 1.25rem;
+    padding: 0.45rem 1.25rem;
     border-radius: 1.875rem;
     color: #ffffff;
     background: #E66595;
-    font-size: 0.75rem;
+    font-size: .9rem;
 }
 
 .button:hover {
@@ -180,7 +175,6 @@ a:hover {
 /* ========================================
     BIO
 ======================================== */
-
 .carla {
     padding-top: 0.25rem;
 }
@@ -221,7 +215,6 @@ a:hover {
 /* ========================================
     THINGS I ABSOLUTELY LOVE
 ======================================== */
-
 .things-grid {
     display: flex;
     flex-wrap: wrap;
@@ -250,7 +243,6 @@ a:hover {
 /* ========================================
     PASSION PROJECTS
 ======================================== */
-
 .proj {
     padding-top: 0.1875rem;
     padding-bottom: 3.625rem;
@@ -286,7 +278,6 @@ a:hover {
 /* ========================================
     SITE FOOTER
 ======================================== */
-
 .footer {
     padding: 1.125rem 1.25rem;
     border-top: 0.1875rem dotted #E66595;
