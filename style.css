@@ -1,0 +1,395 @@
+/* ========================================
+    SKELETON
+======================================== */
+
+html {
+    font-size: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #61565A;
+    font-family: "Figtree", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.85;
+    background: #fff8fa;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E66595;
+}
+
+/* ========================================
+    NAV BAR
+======================================== */
+
+.profileheader {
+    min-height: 3.875rem;
+    padding: 0 clamp(1.375rem, 6vw, 4.75rem);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border-bottom: 0.1875rem dotted #E66595;
+}
+
+.cavlogo {
+    color: #737A4D;
+    font-family: "Yeseva One", "Playfair Display", serif;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    letter-spacing: 0.0625rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.navbar a,
+.header-pill {
+    padding: 0.4375rem 1.125rem;
+    border-radius: 1.875rem;
+    font-size: 0.75rem;
+}
+
+.navbar a:hover {
+    color: #737A4D;
+    background: #fff0f5;
+}
+
+
+/* ========================================
+    SECTION
+======================================== */
+
+.sectionpart {
+    width: min(88%, 73.75rem);
+    margin-inline: auto;
+    padding-bottom: 3.125rem;
+}
+
+.section-title {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto 2.125rem;
+    color: #737A4D;
+    font-family: "Yeseva One", serif;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -0.5625rem;
+    width: 3.375rem;
+    height: 0.125rem;
+    background: #E66595;
+    transform: translateX(-50%);
+}
+
+
+/* ========================================
+    HERO
+======================================== */
+
+.hero {
+    min-height: 26.5625rem;
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: center;
+    gap: 3rem;
+
+    padding-top: 2.625rem;
+    padding-bottom: 2.625rem;
+}
+
+.headline h1 {
+    margin: 0 0 1rem;
+
+    color: #737A4D;
+    font-family: "Yeseva One", "Playfair Display", serif;
+    font-size: clamp(1.875rem, 4vw, 2.6875rem);
+    line-height: 1.25;
+    letter-spacing: -0.0625rem;
+}
+
+.eyebrow {
+    margin: 0 0 0.5rem;
+    color: #737A4D;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+}
+
+.headline p:not(.eyebrow) {
+    max-width: 35.625rem;
+    margin: 0 0 0.875rem;
+    color: #61565A;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.herocta {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.button {
+    min-width: 6.375rem;
+    min-height: 2.375rem;
+    padding: 0.4375rem 1.25rem;
+    border-radius: 1.875rem;
+    color: #ffffff;
+    background: #E66595;
+    font-size: 0.75rem;
+}
+
+.button:hover {
+    color: #ffffff;
+}
+
+.heroimage {
+    display: flex;
+    min-height: 16.5625rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerimage {
+    width: 100%;
+    max-width: 26.5625rem;
+    height: 25rem;
+    object-fit: cover;
+}
+
+/* ========================================
+    BIO
+======================================== */
+
+.carla {
+    padding-top: 0.25rem;
+}
+
+.profile-card {
+    min-height: 22.5rem;
+    padding: clamp(1.75rem, 5vw, 3.375rem);
+    border-radius: 1.125rem;
+    background: #ffffff;
+    box-shadow: 0 0.75rem 1.875rem rgba(218, 119, 157, 0.45);
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: center;
+    gap: clamp(1.75rem, 0.4375rem, 5.3125rem);
+}
+
+.abtme-text h3 {
+    margin: 0 0 0.5rem;
+    color: #737A4D;
+    font-size: 1.0625rem;
+}
+
+.abtme-text p {
+    margin: 0 0 0.75rem;
+    color: #61565A;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.profile-photo {
+    display: block;
+    width: 100%;
+    max-width: 28.125rem;
+    object-fit: cover;
+    border-radius: 1.25rem;
+}
+
+/* ========================================
+    THINGS I ABSOLUTELY LOVE
+======================================== */
+
+.things-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.fav-thing {
+    display: inline-block;
+    max-width: 100%;
+    margin: 0.3125rem;
+    padding: 0.025rem 1.075rem;
+    color: #737A4D;
+    border: 0.125rem dashed #E66595;
+    border-radius: 1.875rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.fav-thing h2 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* ========================================
+    PASSION PROJECTS
+======================================== */
+
+.proj {
+    padding-top: 0.1875rem;
+    padding-bottom: 3.625rem;
+}
+
+.projectsbox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.projectitem {
+    min-height: 7.875rem;
+    padding: 1.125rem 1.25rem;
+    border-radius: 1.25rem;
+    background: #ffffff;
+    box-shadow: 0 0.625rem 1.125rem rgba(218, 119, 157, 0.45);
+}
+
+.projectitem h3 {
+    margin: 0 0 0.5rem;
+    color: #737A4D;
+    font-size: 1rem;
+}
+
+.projectitem p {
+    margin: 0 0 0.5rem;
+    color: #61565A;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+/* ========================================
+    SITE FOOTER
+======================================== */
+
+.footer {
+    padding: 1.125rem 1.25rem;
+    border-top: 0.1875rem dotted #E66595;
+    color: #737A4D;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0.5rem;
+}
+
+
+/* ========================================
+    FOR TABLET AND MOBILE SCREENS
+======================================== */
+@media (max-width: 760px) {
+    .profileheader {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0.875rem 1.125rem;
+    }
+
+    .cavlogo {
+        text-align: center;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .navbar a {
+        padding: 0.5rem 0.65rem;
+        font-size: 0.9rem;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding: 0.5rem 0.65rem;
+    }
+
+    .heroimage {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .headerimage {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        max-height: 22.5rem;
+    }
+
+    .profile-card {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding: 1.625rem;
+    }
+
+    .projectsbox {
+        grid-template-columns: 1fr;
+        gap: 1.7rem;
+    }
+
+}
+
+/* ======================================== */
+@media (max-width: 440px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .hero {
+        gap: 1.125rem;
+        padding-top: 3.125rem;
+    }
+
+    .headline h1 {
+        font-size: clamp(1.75rem, 8vw, 2.125rem);
+    }
+
+    .profile-card {
+        gap: 1.5rem;
+        padding: 1.25rem;
+    }
+
+    .section-title {
+        font-size: 1.25rem;
+    }
+
+    .things-grid {
+        gap: 0.65rem;
+    }
+
+    .fav-thing {
+        margin: 0.185rem;
+        padding: 0.44rem 0.875rem;
+        font-size: 1rem;
+    }
+
+    .projectitem {
+        padding: 1.25rem;
+    }
+}
